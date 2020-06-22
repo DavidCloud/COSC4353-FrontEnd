@@ -30,6 +30,14 @@ form {
     text-align: left;
 }
 
+table {
+    width: 400px;
+    left: 55%;
+    top: 370px;
+    position: absolute;
+    text-align: left;
+}
+
 input[type=text], 
     input[type=password] { 
         width: 100%; 
