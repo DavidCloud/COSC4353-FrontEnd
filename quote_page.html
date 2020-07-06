@@ -21,23 +21,22 @@
                 <label for="gallons"><b>Gallons Requested</b></label>
                 <input class="u-full-width" placeholder="How many gallons do you want?" type="number" id="gallons" name="gallons" minlength= "3" maxlength="50" required>
 
-                <label for="addr1"><b>Address</b></label>
-                <output>Use Profile's Address</output>
+                <label for="Addr"><b>Delivery Address</b></label>
+                <input class="u-full-width" placeholder="Street Address" type="text" id="Addr" name="Addr" minlength= "3" maxlength="50" required>
 
-                <label for="calendar"><b>Delivery Date</b></label>
-                <input type="date" id="start" name="date" value="2020-06-19" min="2020-06-19" required>
+                <label for="date"><b>Delivery Date</b></label>
+                <input type="date" id="start" name="start" value="2020-06-19" min="2020-06-19" required>
 
-                <label for="ppg"><b>Suggested Price/Gallon</b></label>
-                <output>$1.823 per gallon</output>
+                <label for="price"><b>Price/Gallon</b></label>
+                <input class="u-full-width" placeholder="Price per/gallon $" type="number" id="price" name="price" minlength= "3" maxlength="50" required>
+                <button type="submit" class="button-primary">Submit Fuel Request</button>
+
 
                 <label for="total"><b>Total Amount Due</b></label>
                 <output>Display Total Amount (numeric)</output>
                 <output></output>
-                <div>
-                </div>
-                <button type="submit" class="button-primary">Request Quote</button>
             </form>
         </main>
-        <script src="fuel_quote.js"></script>
+    <script src="fuel_quote.js"></script>
     </body>
 </html>
